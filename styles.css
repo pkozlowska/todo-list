@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --header-1-font-size: 2.5rem;
+}
+
+* {
+  font-style: "Josefin Sans", sans-serif;
+}
+
+body {
+  margin: 3rem 31.25%;
+  background-image: url("images/bg-desktop-light.jpg");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: var(--header-1-font-size);
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 15px;
+}
+
+.toggle-icon {
+  width: 1.625rem;
+  height: 1.625rem;
+}
+
+footer > a {
+  font-weight: 700;
+  color: #34bd7d;
+}
