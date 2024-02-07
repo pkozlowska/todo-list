@@ -20,19 +20,40 @@
   </head>
   <body class="d-flex flex-column">
     <header
-      class="d-flex flex-row justify-content-between align-items-center mb-5"
+      class="d-flex flex-row justify-content-between mb-5"
     >
-      <h1 class="text-uppercase">Todo</h1>
-      <button class="toggle-button bg-transparent border-0"><img src="images/icon-moon.svg" alt="theme-toggle"></button>
+      <h1 class="text-uppercase m-0">Todo</h1>
+      <button class="toggle-button bg-transparent border-0">
+        <img src="images/icon-moon.svg" alt="theme-toggle" />
+      </button>
     </header>
     <main>
-
+      <input class="w-100 border-0"
+        type="text"
+        autocomplete="off"
+        placeholder="Create a new todo..."
+      />
+      <figure class="task-manage-container d-flex flex-column bg-white my-4">
+        <div class="task-list"></div>
+        <div class="manage-bar d-flex flex-row justify-content-between align-items-center text-center w-100 py-3 px-4">
+          <p class="quantity-left m-0">5 items left</p>
+          <div class="d-flex gap-3">
+            <button class="filter-btn bg-transparent border-0">All</button>
+            <button class="filter-btn bg-transparent border-0">Active</button>
+            <button class="filter-btn bg-transparent border-0">Completed</button>
+          </div>
+          <button class="clear-btn bg-transparent border-0">Cleaer completed</button>
+        </div>
+      </figure>
     </main>
-    <footer>
+    <footer class="text-center">
       Challenge by
-      <a class="text-decoration-none" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        class="text-decoration-none"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a class="text-decoration-none" href="#">pkozlowska</a>.
+      >. Coded by <a class="text-decoration-none" href="https://github.com/pkozlowska">pkozlowska</a>.
     </footer>
   </body>
 </html>
